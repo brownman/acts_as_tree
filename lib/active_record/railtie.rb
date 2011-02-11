@@ -1,5 +1,6 @@
-require 'acts_as_tree'
 require 'rails'
+require 'acts_as_tree'
+
 
 
   module Acts
