@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
      "init.rb",
      "lib/active_record/acts/tree.rb",
      "lib/acts_as_tree.rb",
+     "lib/helper.rb",
      "rails/init.rb",
      "test/acts_as_tree_test.rb"
   ]

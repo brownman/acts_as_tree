@@ -180,6 +180,10 @@ module ActiveRecord
           parent_id.nil? ? 0 : ancestors.count
         end
         
+        def move_possible?(target)
+            self != target
+        end
+        
         private
         
         def update_parents_counter_cache
