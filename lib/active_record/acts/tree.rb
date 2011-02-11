@@ -160,7 +160,7 @@ module ActiveRecord
         end
 
         # returns a list of self and descendants
-        def self_and_descendants
+        def self_and_descendants(node=self)
           nodes = []
           nodes << node
           
