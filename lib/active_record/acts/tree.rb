@@ -157,6 +157,18 @@ module ActiveRecord
             
           nodes.compact
         end
+
+        # returns a list of self and descendants
+        def self_and_descendants
+          nodes = []
+          nodes << node
+          
+          node.children.each do |child|
+            nodes += descendants(child)
+          end
+            
+          nodes.compact
+        end
         
         def childless
           self.descendants.collect{|d| d.children.empty? ? d : nil}.compact
