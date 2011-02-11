@@ -1,6 +1,6 @@
 require 'rails'
 require 'acts_as_tree'
-require 'helper'
+require 'acts_as_tree/helper'
 
   module Acts
     module Tree
