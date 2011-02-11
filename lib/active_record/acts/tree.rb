@@ -1,6 +1,7 @@
 module ActiveRecord
   module Acts
     module Tree
+      autoload :Helper, '/lib/helper'
       def self.included(base)
         base.extend(ClassMethods)
       end
