@@ -1,3 +1,4 @@
+require 'active_record'
 require 'rails'
 require 'acts_as_tree'
 
