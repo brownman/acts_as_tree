@@ -1,6 +1,5 @@
 require 'rails'
 require 'acts_as_tree'
-require File.join(File.dirname(__FILE__), "lib", "helper")
 
 
   module Acts
